@@ -26,7 +26,6 @@ function Nav(){
       <div className={`overlay ${menuOpen ? 'open' : ''}`} onClick={closeMenu}></div>
       <div className={`hamburger-menu ${menuOpen ? 'open' : ''}`}>
         <div className="hamburger-icon" onClick={toggleMenu}>
-          {/* <FiMenu size={24}  /> */}
           <p className='mx-2' style={{textAlign:'right'}}>{x}</p>
         </div>
         <ul className="menu-items d-flex" style={{justifyContent:'space-between'}}>

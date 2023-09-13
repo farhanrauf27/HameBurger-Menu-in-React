@@ -1,11 +1,14 @@
 
 import './App.css';
-import Nav from './Nav';
+import Data from './pages/data';
+
 
 function App() {
   return (
    <>
-   <Nav></Nav>
+   <div className="container">
+    <Data></Data>
+   </div>
    
    </>
   );
