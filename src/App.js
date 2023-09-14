@@ -6,7 +6,7 @@ import Data from './pages/data';
 function App() {
   return (
    <>
-   <div className="container">
+   <div className="container mx-2">
     <Data></Data>
    </div>
    
